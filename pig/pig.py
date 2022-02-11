@@ -1,12 +1,10 @@
 #!usr/bin/env python
 #-*- coding: utf-8 -*-
 
-
-def pig():
-	return "pig/pig.pyです"
+import os
 
 def main():
-	print(pig())
+	print("cwdは "+os.getcwd())
 
 if __name__ == '__main__':
 	main()
