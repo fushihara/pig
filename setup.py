@@ -2,10 +2,10 @@
 
 from setuptools import setup, find_packages
 
-setup(name="pig",
+setup(name="pig2",
 	version="0.1",
-	description="Test for pip install git+",
-	url="https://github.com/trsqxyz/pig",
+	description="descです",
+	url="https://github.com/fushihara/pig",
 	packages=find_packages(),
 	entry_points="""
 	[console_scripts]
