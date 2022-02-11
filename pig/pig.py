@@ -3,7 +3,7 @@
 
 
 def pig():
-	return "It is 👍  to be a 😮  being dissatisfied than a 🐷  satisfied."
+	return "pig/pig.pyです"
 
 def main():
 	print(pig())
