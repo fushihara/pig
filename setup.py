@@ -12,3 +12,4 @@ setup(name="pig2",
 	pig = pig.pig:main
 	""",
 	)
+print("setup.pyです")
