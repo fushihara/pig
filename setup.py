@@ -2,6 +2,7 @@
 
 from setuptools import setup, find_packages
 
+print("setup.pyです")
 setup(name="pig2",
 	version="0.1",
 	description="descです",
@@ -12,4 +13,3 @@ setup(name="pig2",
 	pig = pig.pig:main
 	""",
 	)
-print("setup.pyです")
