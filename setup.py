@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-raise ValueError("error!")
+print("setup.py の頭")
 setup(name="pig2",
 	version="0.1",
 	description="descです",
@@ -13,3 +13,4 @@ setup(name="pig2",
 	pig = pig.pig:main
 	""",
 	)
+print("setup.py の最後")
