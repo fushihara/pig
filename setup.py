@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-print("setup.pyです")
+raise ValueError("error!")
 setup(name="pig2",
 	version="0.1",
 	description="descです",
