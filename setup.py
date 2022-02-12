@@ -7,6 +7,7 @@ setup(name="pig2",
 	version="0.1",
 	description="descです",
 	url="https://github.com/fushihara/pig",
+        install_requires=["Pillow"],
 	packages=find_packages(),
 	entry_points="""
 	[console_scripts]
